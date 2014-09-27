@@ -1,0 +1,8 @@
+# Ignore for osx
+.DS_Store
+
+# Ignore the .vagrant dir
+.vagrant
+
+# Ignore Sculpin.yaml config file
+Sculpin.yaml

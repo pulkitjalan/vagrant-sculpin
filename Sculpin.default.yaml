@@ -1,0 +1,14 @@
+---
+ip: "192.168.10.10"
+memory: 1024
+cpus: 1
+
+folders:
+    - map: www
+      to: /home/vagrant/www
+
+variables:
+    - key: AWS_ACCESS_KEY_ID
+      value: access_key
+    - key: AWS_SECRET_ACCESS_KEY
+      value: secret_key
